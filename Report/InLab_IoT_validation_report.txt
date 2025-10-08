@@ -1,0 +1,23 @@
+Data Quality Validation Report - InLab_IoT
+==================================================
+
+COMPLETENESS
+------------------------------
+{'missing_stats': {'total_missing': 0, 'missing_by_column': {}, 'missing_percentage': {'Flow ID': 0.0, 'Src IP': 0.0, 'Src Port': 0.0, 'Dst IP': 0.0, 'Dst Port': 0.0, 'Protocol': 0.0, 'Timestamp': 0.0, 'Flow Duration': 0.0, 'Tot Fwd Pkts': 0.0, 'Tot Bwd Pkts': 0.0, 'TotLen Fwd Pkts': 0.0, 'TotLen Bwd Pkts': 0.0, 'Fwd Pkt Len Max': 0.0, 'Fwd Pkt Len Min': 0.0, 'Fwd Pkt Len Mean': 0.0, 'Fwd Pkt Len Std': 0.0, 'Bwd Pkt Len Max': 0.0, 'Bwd Pkt Len Min': 0.0, 'Bwd Pkt Len Mean': 0.0, 'Bwd Pkt Len Std': 0.0, 'Flow Byts/s': 0.0, 'Flow Pkts/s': 0.0, 'Flow IAT Mean': 0.0, 'Flow IAT Std': 0.0, 'Flow IAT Max': 0.0, 'Flow IAT Min': 0.0, 'Fwd IAT Tot': 0.0, 'Fwd IAT Mean': 0.0, 'Fwd IAT Std': 0.0, 'Fwd IAT Max': 0.0, 'Fwd IAT Min': 0.0, 'Bwd IAT Tot': 0.0, 'Bwd IAT Mean': 0.0, 'Bwd IAT Std': 0.0, 'Bwd IAT Max': 0.0, 'Bwd IAT Min': 0.0, 'Fwd PSH Flags': 0.0, 'Bwd PSH Flags': 0.0, 'Fwd URG Flags': 0.0, 'Bwd URG Flags': 0.0, 'Fwd Header Len': 0.0, 'Bwd Header Len': 0.0, 'Fwd Pkts/s': 0.0, 'Bwd Pkts/s': 0.0, 'Pkt Len Min': 0.0, 'Pkt Len Max': 0.0, 'Pkt Len Mean': 0.0, 'Pkt Len Std': 0.0, 'Pkt Len Var': 0.0, 'FIN Flag Cnt': 0.0, 'SYN Flag Cnt': 0.0, 'RST Flag Cnt': 0.0, 'PSH Flag Cnt': 0.0, 'ACK Flag Cnt': 0.0, 'URG Flag Cnt': 0.0, 'CWE Flag Count': 0.0, 'ECE Flag Cnt': 0.0, 'Down/Up Ratio': 0.0, 'Pkt Size Avg': 0.0, 'Fwd Seg Size Avg': 0.0, 'Bwd Seg Size Avg': 0.0, 'Fwd Byts/b Avg': 0.0, 'Fwd Pkts/b Avg': 0.0, 'Fwd Blk Rate Avg': 0.0, 'Bwd Byts/b Avg': 0.0, 'Bwd Pkts/b Avg': 0.0, 'Bwd Blk Rate Avg': 0.0, 'Subflow Fwd Pkts': 0.0, 'Subflow Fwd Byts': 0.0, 'Subflow Bwd Pkts': 0.0, 'Subflow Bwd Byts': 0.0, 'Init Fwd Win Byts': 0.0, 'Init Bwd Win Byts': 0.0, 'Fwd Act Data Pkts': 0.0, 'Fwd Seg Size Min': 0.0, 'Active Mean': 0.0, 'Active Std': 0.0, 'Active Max': 0.0, 'Active Min': 0.0, 'Idle Mean': 0.0, 'Idle Std': 0.0, 'Idle Max': 0.0, 'Idle Min': 0.0, 'Label': 0.0}}, 'duplicate_rows': 1, 'infinite_values': 0, 'infinite_columns': {}, 'missmatched_types': {}}
+
+FLOW_CONSISTENCY
+------------------------------
+{'valid_packet_counts': 1.0, 'valid_flow_duration': 1.0, 'flow_rate_consistency': 0.05137935188531502, 'packet_length_consistency': 1.0, 'iat_consistency': 1.0}
+
+PROTOCOL_FLAGS
+------------------------------
+{'FIN Flag Cnt_valid': 1.0, 'SYN Flag Cnt_valid': 1.0, 'RST Flag Cnt_valid': 1.0, 'PSH Flag Cnt_valid': 1.0, 'ACK Flag Cnt_valid': 1.0, 'URG Flag Cnt_valid': 1.0, 'syn_ack_pattern_ratio': 0.00013388673182487614}
+
+DDOS_PATTERNS
+------------------------------
+{'ddos_count': 13020, 'benign_count': 3582, 'ddos_ratio': 0.7842428623057462, 'pkt_rate_ratio': 0.04292606461995491, 'duration_ratio': 0.0463466491537644, 'syn_ratio': 4.844059964570975}
+
+STATISTICAL_PROPERTIES
+------------------------------
+{'outlier_percentages': {'Src Port': 4.662088904951211, 'Dst Port': 21.57571376942537, 'Protocol': 10.02288880857728, 'Flow Duration': 11.209492832188893, 'Tot Fwd Pkts': 2.1142031080592703, 'Tot Bwd Pkts': 1.9335019877123236, 'TotLen Fwd Pkts': 1.1203469461510662, 'TotLen Bwd Pkts': 25.882423804360922, 'Fwd Pkt Len Max': 20.148174918684497, 'Fwd Pkt Len Min': 2.1443199614504276}, 'skewness': {'Src Port': -1.7594849564298027, 'Dst Port': 6.4042870004063195, 'Protocol': 2.6575920336435965, 'Flow Duration': 4.316728247848412, 'Tot Fwd Pkts': 35.149400063313045, 'Tot Bwd Pkts': 30.825250062551465, 'TotLen Fwd Pkts': 56.26267745347426, 'TotLen Bwd Pkts': 31.762866520373688, 'Fwd Pkt Len Max': -1.831013567797059, 'Fwd Pkt Len Min': 27.065736422850147}}
+
