@@ -3,7 +3,7 @@
   "summary": {
     "title": "LIDAR",
     "owner": "",
-    "description": "",
+    "description": "Element: Data Flow (from \"Environment\" to \"LIDAR Sensor\")\n\nThreat Type: Spoofing\n\nDescription: Attacker injects a high-frequency infrared signal that mimics the car's own laser reflection.\n\nMitigation: Implement Sensor Fusion (cross-reference LIDAR with Radar/Camera data).",
     "id": 0
   },
   "detail": {
