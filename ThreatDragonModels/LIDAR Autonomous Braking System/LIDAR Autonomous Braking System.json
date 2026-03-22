@@ -11,7 +11,7 @@
     "diagrams": [
       {
         "id": 0,
-        "title": "New generic diagram",
+        "title": "New generic diagram1",
         "diagramType": "Generic",
         "placeholder": "New generic diagram description",
         "thumbnail": "./public/content/images/thumbnail.jpg",
@@ -19,7 +19,7 @@
         "cells": []
       }
     ],
-    "diagramTop": 1,
+    "diagramTop": 2,
     "reviewer": "",
     "threatTop": 0
   }
